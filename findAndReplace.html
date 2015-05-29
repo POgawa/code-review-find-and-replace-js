@@ -11,11 +11,19 @@
       <h1>Enter the phrase to search through:</h1>
       <form id="name-changer">
         <div class="form-group">
-            <label for="input-string">Input a word:</label>
-            <input id="input-string" type="text">
+
+            <label for="input-sentence">Input a sentence:</label>
+            <input id="input-sentence" type="text">
+
+            <label for="input-word">Input a word you want to replace:</label>
+            <input id="input-word" type="text">
+
+            <label for="input-replacementWord">Input a word that you want to replace with:</label>
+            <input id="input-replacementWord" type="text">
+
         </div>
           <div id="result">
-              <p>The new phrase is: <span class="output"></span></p>
+              <p>The new phrase is: <em><strong> " <span class="output"></span>"</em></strong></p>
           </div>
         <button type="submit" class="btn">Submit</button>
       </form>
