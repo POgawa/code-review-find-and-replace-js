@@ -9,7 +9,7 @@
 ## Installation
 
 
-git clone this repo and open index.html in your browser
+git clone this repo and open findandreplace.html in your browser
 
 ```
 
